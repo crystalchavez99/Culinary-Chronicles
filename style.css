@@ -22,6 +22,7 @@
 body {
   background-color: lightgray;
   font-family: Copperplate;
+  background-image: url("https://previews.123rf.com/images/geostep/geostep1810/geostep181000020/110262460-cartoon-cute-food-and-kitchenware-on-white-background-seamless-pattern-linear-illustration-for.jpg");
 }
 
 h1 {
@@ -31,13 +32,57 @@ h3 {
   text-align: center;
 }
 
-img {
+img{
   height: 200px;
   width: 350px;
-  opacity: 0.8;
+  /* opacity: 0.8; */
+  border: 0.5rem;
+  border-color: darkgreen;
+  border-style: solid;
 }
 
-a {
+
+
+a{
+  /* transition: color .3s ease-in-out, box-shadow .3s ease-in-out; */
   text-decoration: none;
   color: black;
 }
+
+a:hover{
+  text-shadow: 5px 5px 5px red;
+  color: black;
+  /* color:hotpink; */
+}
+
+
+.images{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#nav{
+  background-color: black;
+  color:white;
+  padding: 5px 0 5px 0;
+  /* display: flex;
+  align-content: space-between; */
+}
+
+ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  /* align-content: space-between; */
+}
+
+/* a::before{
+  content: '🔗';
+  color:blue;
+}
+
+a::after{
+  content: "after";
+  color: red;
+} */
